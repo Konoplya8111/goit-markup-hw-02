@@ -13,12 +13,18 @@ body {
 .list {
   list-style: none;
 }
+a {
+  text-decoration: none;
+}
 .logo {
   color: #000;
   font-family: Raleway, sans-serif;
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
+}
+.logo span {
+  color: var(--accent-color);
 }
 .site-nav .link {
   color: var(--primary-text-color);
@@ -40,6 +46,7 @@ body {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
+  color: var(--title-text-color);
 }
 .hero-title {
   background-color: #2f303a;
@@ -52,6 +59,7 @@ body {
   color: #ffffff;
 }
 .button {
+  font-family: "Roboto";
   background-color: var(--accent-color);
   font-weight: 700;
   font-size: 16px;
@@ -114,13 +122,23 @@ body {
   font-size: 26px;
   line-height: 1.19;
 }
+.footer-logo span {
+  color: var(--accent-color);
+}
+.contakt-link {
+  font-size: 14px;
+  line-height: 1.71;
+  color: rgba(255, 255, 255, 0.6);
+  font-style: normal;
+}
 .item-link {
   font-size: 14px;
   line-height: 1.71;
-  letter-spacing: 0.03em;
-  color: rgba(255, 255, 255, 0.6);
+  color: #ffffff;
+  font-style: normal;
 }
 .portfolio-button {
+  font-family: "Roboto";
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
@@ -134,14 +152,13 @@ body {
   color: var(--primary-white-color);
 }
 .work-titly {
-  font-weight: 700;
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
   color: #212121;
 }
 .work-text {
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.9;
+  color: #757575;
 }
